@@ -1,0 +1,277 @@
+
+
+.menu{
+    position: fixed;
+    transition: top 0.3s;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+    background-color:  rgb(224, 202, 244);
+    
+    border-radius: 1vw;
+    box-shadow: 5px 5px 5px 5px rgb(207, 173, 230);
+   
+ 
+    
+}
+
+.menu ul{
+    justify-content: center;
+    
+}
+
+.menu li:hover{
+    background-color: #d8eef3;
+    
+    
+}
+
+.menu li{
+    margin-bottom: 0.3em;
+    margin-right: 0.9em;
+    border-radius: 1.3vw;
+    padding: 0.4em;
+    
+    
+}
+
+.menu a{
+    color: #8741a0;
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-family: Bodoni MT;
+    
+    
+}
+
+.menu a:hover{
+    color: #404461; 
+    
+}
+body{
+    background-color: rgb(224, 202, 244);
+    
+
+
+}
+header{
+   
+    background-image: url("ba.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 2vw;
+    font-family: "Trirong", serif;
+    
+}
+header{
+    margin-top: 12%;
+}
+
+
+
+
+.sec1, .sec2, .sec3, .sec4{
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: LET;
+    color:#573366;
+       
+}
+
+#r1{
+    background-color: rgb(159, 109, 174);
+    border-radius: 2vw;
+    margin-right: 7%;
+    margin-left:5%;
+    
+}
+
+
+
+h2{
+    text-align:left;
+    padding: 1.5%;
+    padding-left: 15%;
+    background-color: rgb(242, 212, 246);
+    border-radius: 5vw;
+    margin-bottom: 4%;
+    color: rgb(159, 109, 174);
+    
+}
+
+h2{
+    margin-right: 55%;
+}
+
+
+.col-auto p{
+    font-family: Candara;
+    font-size: 2em;
+    
+}
+
+
+.pic{
+    height: 100px;
+    width: 100px;
+    background-color: #555;
+    border-radius: 50%;
+
+    box-shadow:-0.8em 0.3em 0.6em rgb(160, 140, 193);
+
+}
+
+.table th{
+    color: rgb(221, 221, 225);
+    font-size: 2.5vw;
+    
+}
+.table td{
+    color:#573366;
+    font-family:Verdana;
+}
+
+.row{
+    padding: 2.5%;
+   
+    
+}
+h1{
+    font-family: MV Boli;
+}
+
+.sec2{
+    font-size: 3vw;
+    
+}
+
+
+.title-icon {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	margin: 1rem;
+	width: 4rem;
+	height: 4rem;
+	background-color:#8741a0;
+	border-radius: 50%;
+	transition: all 0.3s;
+    box-shadow:-0.8em 0.3em 0.6em rgb(227, 172, 252);
+    
+    
+    
+}
+.title-icon i {
+	color: white;
+	line-height: 2rem;
+	font-size: 2rem;
+	text-align: center;
+    
+    
+    
+}
+
+.title-icon :hover{
+	transform: scale(1.5);
+    color: aqua;
+}
+
+
+   
+.sec4 i{
+    font-size:20px;
+    padding: 0.1rem;
+    margin: 0.5rem;
+   
+}
+
+
+.sec4 span ,a{
+    font-family: LET;
+    font-size: 15px;
+    font-weight:400%;
+    color:#573366;
+    
+   }
+   .sec4{
+    color:aqua;
+}
+
+
+   .title-icon{
+   
+    position: absolute;
+    margin-left:3%;
+    margin-top: 1%;
+    
+    
+
+   }
+
+   .timeline-block {
+	position: relative;
+	padding-left: 30px;
+    
+}
+
+.timeline-block h1 {
+	font-size: 24px;
+	margin: 5px 0;
+	transition: all 0.3s;
+    
+}
+.timeline-block p {
+	font-size: 14px;
+    font-family: LET;
+	margin: 5px ;
+    
+}
+.timeline-block time {
+	font-size: 13px;
+	color:aqua;
+}
+
+   .timeline-block::before {
+	position: absolute;
+	content: '';
+	width: 15px;
+	height: 15px;
+	
+	border: 3px solid aqua;
+	border-radius: 80%;
+	left: -7px;
+	top: -2px;
+    
+}
+.timeline-block::after {
+	position: absolute;
+	content: '';
+	width: 3px;
+	height: 90%;
+	background-color:#8741a0;
+	left: -1px;
+	top: 13px;
+}
+
+
+.timeline-block:hover h1 {
+	color:aqua;
+}
+
+
+mark{
+    background-color: rgb(186, 244, 244);
+    
+}
+
+
+
+@media screen and (min-width:780px){
+    .container{
+        display: flex;
+    }
+
+}
